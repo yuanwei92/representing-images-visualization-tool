@@ -1,4 +1,8 @@
-# binary-image-representation
+# Visualize Representation of Images in Binary 🖼️
+An interactive tool to visualize how images are represented using binary.
+
+[Visit Site](https://yuanwei92.github.io/representing-images-visualization-tool/)
+
 
 ## Project setup
 ```
@@ -13,11 +17,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
 ```
 
 ### Lints and fixes files
