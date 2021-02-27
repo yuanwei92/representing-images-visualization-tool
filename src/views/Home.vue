@@ -128,7 +128,11 @@
                 >Twitter</a
               >
               |
-              <a class="footer-link" href="">Github</a>
+              <a
+                class="footer-link"
+                href="https://github.com/yuanwei92/representing-images-visualization-tool"
+                >Github</a
+              >
             </div>
           </div>
         </b-col>
