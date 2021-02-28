@@ -19,12 +19,12 @@ export const palette = {
     },
     {
       binary: "01",
-      colour: "Grey",
+      colour: "Dark Grey",
       rgb: [85, 85, 85]
     },
     {
       binary: "10",
-      colour: "Dark Grey",
+      colour: "Grey",
       rgb: [170, 170, 170]
     },
     {
