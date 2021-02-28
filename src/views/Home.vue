@@ -298,10 +298,10 @@ export default {
         for (let index = 0; index < additional; index++) {
           rgb.pop();
         }
-        rgb.map(bin => {
-          return parseInt(bin.padStart(8, "0"), 2);
+        const rgbInt = rgb.map(bin => {
+          return parseInt(bin, 2);
         });
-        sketch.fill(rgb[0], rgb[1], rgb[2]);
+        sketch.fill(rgbInt[0], rgbInt[1], rgbInt[2]);
       }
     },
 
