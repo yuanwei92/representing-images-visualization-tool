@@ -272,8 +272,9 @@ export default {
       this.generateGrid();
 
       const value = this.editor.getValue();
+      const trimmedValue = value.replace(/\s/g, "");
       const re = new RegExp(`.{1,${this.colourDepth}}`, "g");
-      const pixels = value.match(re);
+      const pixels = trimmedValue.match(re);
       const grid = _.chunk(pixels, this.resoWidth);
 
       for (let index = 0; index < this.grid.length; index++) {
