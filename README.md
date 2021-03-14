@@ -1,4 +1,4 @@
-# Visualize Representation of Images in Binary 🖼️
+# Binary Representation of Images 🖼️
 An interactive tool to visualize how images are represented using binary.
 
 [Visit Site](https://yuanwei92.github.io/representing-images-visualization-tool/)
